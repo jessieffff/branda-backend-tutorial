@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 /**
  * URL to the MongoDB instance.
  */
-const MONGODB_URL = "REPLACE THIS WITH YOUR DB URL";
+const MONGODB_URL = "mongodb+srv://jiefangli:gsxpUXJi4FuuPTWW@branda-backend.8qsjk.mongodb.net/DB?retryWrites=true&w=majority";
 
 // Tell Mongoose to connect to the MongoDB instance using the provided configuration.
 mongoose.connect(MONGODB_URL);
